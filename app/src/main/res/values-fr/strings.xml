@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username_self">Vous</string>
+    <string name="sample_text">Sample text</string>
+    <string name="sample_date">Date d\'exemple</string>
+    <string name="other_person_sample">Personne</string>
+    <string name="send">send_button</string>
+</resources>

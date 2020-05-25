@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="@string/sample_date" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/chatAvatarSize"
+        android:layout_height="@dimen/chatAvatarSize"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/arrow_in" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:text="@string/username_self"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/username_text_size" />
+
+    <TextView
+        android:id="@+id/contenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_out"
+        android:gravity="end"
+        android:paddingStart="@dimen/bubble_padding_other"
+        android:paddingLeft="@dimen/bubble_padding_other"
+        android:paddingTop="@dimen/bubble_padding_other"
+        android:paddingEnd="@dimen/bubble_padding_main"
+        android:paddingRight="@dimen/bubble_padding_main"
+        android:paddingBottom="@dimen/bubble_padding_other"
+        android:text="@string/sample_text" />
+</LinearLayout>
